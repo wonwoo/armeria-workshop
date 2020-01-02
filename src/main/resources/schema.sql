@@ -10,3 +10,9 @@ CREATE TABLE USER (
   id         INTEGER IDENTITY PRIMARY KEY,
   name       VARCHAR(30)
 );
+
+CREATE TABLE HISTORY (
+  id           INTEGER IDENTITY PRIMARY KEY,
+  post_id      INTEGER,
+  reg_date     TIMESTAMP
+);
